@@ -66,7 +66,7 @@ export default function AboutPage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-brand-navy via-brand-navy-light to-brand-navy overflow-hidden">
+        <section className="relative min-h-[70vh] flex items-center hero-gradient hero-pattern overflow-hidden">
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-5">
             <div className="absolute inset-0" style={{
@@ -233,7 +233,7 @@ export default function AboutPage() {
         </section>
 
         {/* Why Choose Us Section */}
-        <section className="py-20 bg-gradient-to-br from-brand-navy to-brand-navy-light">
+        <section className="py-20 hero-gradient">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>

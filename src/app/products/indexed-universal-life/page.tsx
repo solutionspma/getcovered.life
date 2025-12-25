@@ -60,7 +60,7 @@ export default function IndexedUniversalLifePage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-brand-navy via-brand-navy-600 to-brand-navy-700 pt-32 pb-20">
+        <section className="relative hero-gradient hero-pattern pt-32 pb-20">
           <div className="absolute inset-0 hero-pattern opacity-30" />
           <div className="container mx-auto px-4 relative z-10">
             <div className="grid lg:grid-cols-2 gap-12 items-center">

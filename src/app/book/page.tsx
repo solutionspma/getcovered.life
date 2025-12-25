@@ -94,7 +94,7 @@ export default function BookPage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center bg-gradient-to-br from-brand-navy via-brand-navy-light to-brand-navy overflow-hidden pt-20">
+        <section className="relative min-h-screen flex items-center hero-gradient hero-pattern overflow-hidden pt-20">
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{
               backgroundImage: `radial-gradient(circle at 25% 25%, #F8BF4F 0%, transparent 50%), radial-gradient(circle at 75% 75%, #F8BF4F 0%, transparent 50%)`,
