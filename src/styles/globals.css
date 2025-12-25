@@ -290,10 +290,78 @@
   }
 
   /* ============================================
-     Hero Backgrounds
+     Hero Backgrounds - ALL dark sections
      ============================================ */
-  .hero-gradient {
+  .hero-gradient,
+  .bg-brand-navy,
+  .bg-primary,
+  [class*="bg-brand-navy"],
+  [class*="bg-primary"],
+  section[class*="relative"][class*="overflow-hidden"] {
     background: linear-gradient(to bottom right, #173860, #132E4D, #0F243A);
+  }
+
+  /* Hero Text - Force white/gold text on ALL dark backgrounds */
+  .hero-gradient h1, .hero-gradient h2, .hero-gradient h3, .hero-gradient h4, .hero-gradient p, .hero-gradient span,
+  .bg-brand-navy h1, .bg-brand-navy h2, .bg-brand-navy h3, .bg-brand-navy h4, .bg-brand-navy p, .bg-brand-navy span,
+  .bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary h4, .bg-primary p, .bg-primary span,
+  [class*="bg-brand-navy"] h1, [class*="bg-brand-navy"] h2, [class*="bg-brand-navy"] h3, [class*="bg-brand-navy"] p, [class*="bg-brand-navy"] span,
+  section[class*="relative"][class*="overflow-hidden"] h1,
+  section[class*="relative"][class*="overflow-hidden"] h2,
+  section[class*="relative"][class*="overflow-hidden"] h3,
+  section[class*="relative"][class*="overflow-hidden"] p,
+  section[class*="relative"][class*="overflow-hidden"] span {
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
+  }
+
+  /* Gold accent text on dark backgrounds */
+  .hero-gradient .text-brand-gold,
+  .bg-brand-navy .text-brand-gold,
+  [class*="text-brand-gold"] {
+    color: #F8BF4F !important;
+  }
+
+  /* ============================================
+     Content Sections - Navy text on light backgrounds
+     ============================================ */
+  section.bg-white h1, section.bg-white h2, section.bg-white h3, section.bg-white h4, section.bg-white h5, section.bg-white h6,
+  section.bg-background h1, section.bg-background h2, section.bg-background h3, section.bg-background h4, section.bg-background h5, section.bg-background h6,
+  section.bg-muted h1, section.bg-muted h2, section.bg-muted h3, section.bg-muted h4, section.bg-muted h5, section.bg-muted h6,
+  .bg-white h1, .bg-white h2, .bg-white h3, .bg-white h4, .bg-white h5, .bg-white h6,
+  .bg-background h1, .bg-background h2, .bg-background h3, .bg-background h4, .bg-background h5, .bg-background h6 {
+    color: #173860 !important;
+    text-shadow: none !important;
+  }
+
+  section.bg-white p, section.bg-white span, section.bg-white li,
+  section.bg-background p, section.bg-background span, section.bg-background li,
+  section.bg-muted p, section.bg-muted span, section.bg-muted li,
+  .bg-white p, .bg-white span, .bg-white li,
+  .bg-background p, .bg-background span, .bg-background li {
+    color: #374151 !important;
+    text-shadow: none !important;
+  }
+
+  /* Cards - ensure proper text colors */
+  .card h1, .card h2, .card h3, .card h4, .card h5, .card h6,
+  [class*="rounded-"][class*="border"] h1, [class*="rounded-"][class*="border"] h2, [class*="rounded-"][class*="border"] h3 {
+    color: #173860 !important;
+    text-shadow: none !important;
+  }
+
+  .card p, .card span, .card li,
+  [class*="rounded-"][class*="border"] p, [class*="rounded-"][class*="border"] span {
+    color: #374151 !important;
+  }
+
+  /* Stats section text */
+  .text-brand-navy, [class*="text-brand-navy"] {
+    color: #173860 !important;
+  }
+
+  .text-muted-foreground {
+    color: #6b7280 !important;
   }
   
   .hero-pattern {

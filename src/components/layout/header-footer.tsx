@@ -253,6 +253,7 @@ export function Footer() {
               <li><Link href="/book" className="text-white/70 hover:text-brand-gold transition-colors">Insur-O-Gram Book</Link></li>
               <li><Link href="/contact" className="text-white/70 hover:text-brand-gold transition-colors">Contact Us</Link></li>
               <li><Link href="/privacy" className="text-white/70 hover:text-brand-gold transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/admin" className="text-white/70 hover:text-brand-gold transition-colors">Agent Login</Link></li>
             </ul>
           </div>
 
@@ -311,6 +312,17 @@ export function Footer() {
               <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
               <Link href="/disclosures" className="hover:text-white transition-colors">Disclosures</Link>
             </div>
+          </div>
+          <div className="text-center mt-4 pt-4 border-t border-white/5 text-xs text-white/40">
+            Marketing & Digital Strategy by{' '}
+            <a 
+              href="https://pitchmarketing.agency" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-brand-gold hover:text-brand-gold/80 transition-colors"
+            >
+              Pitch Marketing Agency
+            </a>
           </div>
         </div>
       </div>

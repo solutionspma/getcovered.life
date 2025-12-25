@@ -48,30 +48,30 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Phone',
-    value: '(800) 555-1234',
+    value: '1-866-811-6525',
     href: 'tel:+18668116525',
-    description: 'Mon-Fri 8am-8pm EST',
+    description: 'Mon-Fri 9am-6pm EST',
   },
   {
     icon: Mail,
     title: 'Email',
-    value: 'hello@getcovered.life',
-    href: 'mailto:hello@getcovered.life',
+    value: 'info@getcovered.life',
+    href: 'mailto:info@getcovered.life',
     description: 'We respond within 24 hours',
   },
   {
     icon: MapPin,
     title: 'Office',
-    value: 'Tampa, Florida',
+    value: 'Louisiana',
     href: '#',
-    description: 'Licensed in all 50 states',
+    description: 'Serving LA, TX & SC',
   },
   {
     icon: Clock,
     title: 'Hours',
-    value: 'Mon-Fri 8am-8pm',
+    value: 'Mon-Fri 9am-6pm',
     href: '#',
-    description: 'Sat 9am-5pm EST',
+    description: 'Sat 10am-2pm EST',
   },
 ]
 
