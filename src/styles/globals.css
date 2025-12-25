@@ -293,7 +293,7 @@
      Hero Backgrounds
      ============================================ */
   .hero-gradient {
-    @apply bg-gradient-to-br from-brand-navy via-brand-navy-600 to-brand-navy-700;
+    background: linear-gradient(to bottom right, #173860, #132E4D, #0F243A);
   }
   
   .hero-pattern {

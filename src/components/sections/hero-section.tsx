@@ -49,6 +49,7 @@ export function HeroSection() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             className="text-white"
+            style={{ color: '#ffffff' }}
           >
             {/* Trust Badge */}
             <motion.div
@@ -56,19 +57,19 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <Badge variant="secondary" className="mb-6 px-4 py-2 text-sm">
+              <Badge variant="secondary" className="mb-6 px-4 py-2 text-sm bg-yellow-400 text-brand-navy">
                 <Star className="w-4 h-4 mr-2 fill-brand-navy" />
                 Rated 4.9/5 by 2,000+ Families
               </Badge>
             </motion.div>
 
             {/* Headline */}
-            <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-white" style={{ color: '#ffffff' }}>
               Protect What
-              <span className="text-brand-gold block">Matters Most</span>
+              <span className="block" style={{ color: '#F8BF4F' }}>Matters Most</span>
             </h1>
 
-            <p className="text-xl text-white/80 mb-8 max-w-xl">
+            <p className="text-xl mb-8 max-w-xl" style={{ color: 'rgba(255,255,255,0.9)' }}>
               Get affordable life insurance quotes in minutes. Compare rates from 
               top-rated carriers and find the perfect coverage for your family.
             </p>
@@ -88,8 +89,8 @@ export function HeroSection() {
                   transition={{ delay: 0.4 + index * 0.1 }}
                   className="flex items-center gap-3"
                 >
-                  <CheckCircle2 className="w-5 h-5 text-brand-gold shrink-0" />
-                  <span className="text-white/90">{point}</span>
+                  <CheckCircle2 className="w-5 h-5 shrink-0" style={{ color: '#F8BF4F' }} />
+                  <span style={{ color: 'rgba(255,255,255,0.9)' }}>{point}</span>
                 </motion.div>
               ))}
             </div>
